@@ -1,5 +1,6 @@
+@hook
 Feature: US1001 amazon page search
-  @amazonarama
+
   Scenario: TC01 amazon arama testi
 
     Given kullanici amazon anasayfaya gider

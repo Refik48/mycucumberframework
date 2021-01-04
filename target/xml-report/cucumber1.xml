@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="122.045">
+<testcase classname="US1001 amazon page search" name="TC01 amazon arama testi" time="51.106">
+<system-out><![CDATA[Given kullanici amazon anasayfaya gider.....................................passed
+And iphone icin arama yapar.................................................passed
+Then sonucun iphone icerdigini test eder....................................passed
+Given kullanici amazon anasayfaya gider.....................................passed
+And teapot icin arama yapar.................................................passed
+Then sonucun teapot icerdigini test eder....................................passed
+Given kullanici amazon anasayfaya gider.....................................passed
+And flower icin arama yapar.................................................passed
+Then sonucun flower icerdigini test eder....................................passed
+And kullanici sayfayi kapatir...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1002_amazon_search_background" name="TC02_amazon_iphone_arama_testi" time="23.029">
+<system-out><![CDATA[Given kullanici amazon anasayfaya gider.....................................passed
+And iphone icin arama yapar.................................................passed
+Then sonucun iphone icerdigini test eder....................................passed
+And kullanici sayfayi kapatir...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1002_amazon_search_background" name="TC03_amazon_teapot_arama_testi" time="26.172">
+<system-out><![CDATA[Given kullanici amazon anasayfaya gider.....................................passed
+And teapot icin arama yapar.................................................passed
+Then sonucun teapot icerdigini test eder....................................passed
+And kullanici sayfayi kapatir...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1002_amazon_search_background" name="TC04_amazon_flower_arama_testi" time="20.873">
+<system-out><![CDATA[Given kullanici amazon anasayfaya gider.....................................passed
+And flower icin arama yapar.................................................passed
+Then sonucun flower icerdigini test eder....................................passed
+And kullanici sayfayi kapatir...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

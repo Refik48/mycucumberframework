@@ -1,5 +1,6 @@
+@ama
 Feature: US1004_amazon_search_scenario_outline
-    #@wip
+
   Scenario Outline: TC06_cuklu_arama
     When kullanici amazon anasayfaya gider
     Then "<arananlar>" icin arama yapar

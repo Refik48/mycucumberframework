@@ -1,10 +1,10 @@
-@amazonaramauserstory
+@hook
 Feature: US1002_amazon_search_background
 
   Background:
     Given kullanici amazon anasayfaya gider
 
-  @smoketest @amazonarama
+  #@smoketest @amazonarama
   Scenario: TC02_amazon_iphone_arama_testi
 
     And iphone icin arama yapar
@@ -18,7 +18,7 @@ Feature: US1002_amazon_search_background
     Then sonucun teapot icerdigini test eder
     And kullanici sayfayi kapatir
 
-  @mehmet @smoketest
+ # @mehmet @smoketest
   Scenario: TC04_amazon_flower_arama_testi
 
     And flower icin arama yapar
