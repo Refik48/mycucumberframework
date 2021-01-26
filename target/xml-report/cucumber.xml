@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="6.084">
+<testcase classname="US1015_DBUtils ile yapilan sorgular" name="TC_23 Kullanici tHOTEL tablosundan mail fieldini okur" time="5.438">
+<system-out><![CDATA[Given kullanici DBUtils ile CK_Hotels veritabanina baglanir.................passed
+And kullanici DBUtils ile "tHOTEL" tablosundan "EMail" verilerini okur......passed
+Then IDHotel degeri 8 olan kaydin Email bilgisinin "new@email" oldugunu test eder.passed
+]]></system-out>
+</testcase>
+</testsuite>
